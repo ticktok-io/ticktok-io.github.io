@@ -27,7 +27,7 @@ jobs:
 
       - run:
           name: Install dependencies
-          comand: npm install --prefix website
+          command: npm install --prefix website
 
       - save_cache:
           paths:
