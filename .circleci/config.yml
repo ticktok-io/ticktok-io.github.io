@@ -36,4 +36,8 @@ jobs:
 
       - run:
           name: Publish
-          command: npm run publish-gh-pages --prefix website
+          command: |
+            git config --global user.email "eli.segal@gmail.com"
+            git config --global user.name "rockem"
+            echo "machine github.com login rockem password $GITHUB_TOKEN" > ~/.netrc
+            GIT_USER=rockem npm run publish-gh-pages --prefix website
