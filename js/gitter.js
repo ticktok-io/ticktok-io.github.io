@@ -1,3 +1,3 @@
 ((window.gitter = {}).chat = {}).options = {
-  room: 'ticktok-io'
+  room: 'ticktok-io/community'
 };
