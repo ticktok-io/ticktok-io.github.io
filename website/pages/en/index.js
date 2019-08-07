@@ -32,7 +32,7 @@ class HomeSplash extends React.Component {
 
     const Logo = props => (
       <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+        <img src={props.img_src} alt="Project Logo"/>
       </div>
     );
 
@@ -61,9 +61,9 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`}/>
         <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
+          <ProjectTitle siteConfig={siteConfig}/>
           <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
@@ -174,7 +174,7 @@ class Index extends React.Component {
         .filter(user => user.pinned)
         .map(user => (
           <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
+            <img src={user.image} alt={user.caption} title={user.caption}/>
           </a>
         ));
 
@@ -195,16 +195,15 @@ class Index extends React.Component {
     };
 
     return (
-      <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
+      <div className="Main">
+        <HomeSplash siteConfig={siteConfig} language={language}/>
         <div className="mainContainer">
-          <div ref={el => (this.instance = el)} />
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <Features/>
+          <FeatureCallout/>
+          <LearnHow/>
+          <TryOut/>
+          <Description/>
+          <Showcase/>
         </div>
       </div>
     );
