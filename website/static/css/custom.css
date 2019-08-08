@@ -1,5 +1,13 @@
 /* your custom css */
 
+Features {
+    background: #e5e5e5 ;
+}
+
+.projectTitle {
+    color: black;
+}
+
 .gitter-chat-embed {
     top: 20%
 }

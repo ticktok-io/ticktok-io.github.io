@@ -61,13 +61,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`}/>
+        {/*<Logo img_src={`${baseUrl}img/undraw_monitor.svg`}/>*/}
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig}/>
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('overview.html')}>Get Started</Button>
+          {/*  <Button href={docUrl('doc1.html')}>Example Link</Button>*/}
+          {/*  <Button href={docUrl('doc2.html')}>Example Link 2</Button>*/}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -147,19 +147,29 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="fourColumn" background="light">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Scheduling with Ticktok.io is done programmatically, using an SDK will hide any technology ' +
+              'complexity. Our scheduling language is both easy to understand and powerful for any scheduling needs.',
+            image: `${baseUrl}img/clock-circular-outline.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'SCHEDULE',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Monitoring is important and Ticktok.io doesn\'t fall short. Whether you want to monitor ticks accuracy, debug ' +
+              'missing events or get alerts if something goes wrong. Ticktok.io will deliver.',
+            image: `${baseUrl}img/pie-chart.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'MONITOR',
+          },
+          {
+            content: 'Ticktok.io is built to scale from the get go, so even at a large scale it will provide a fast and accurate ' +
+              'ticks. ' +
+              'It\'s also self managed, so there\'s no need for extra maintenance overhead.',
+            image: `${baseUrl}img/settings-gears.png`,
+            imageAlign: 'top',
+            title: 'SCALE',
           },
         ]}
       </Block>
@@ -195,15 +205,15 @@ class Index extends React.Component {
     };
 
     return (
-      <div className="Main">
+      <div>
         <HomeSplash siteConfig={siteConfig} language={language}/>
         <div className="mainContainer">
           <Features/>
           <FeatureCallout/>
           <LearnHow/>
           <TryOut/>
-          <Description/>
-          <Showcase/>
+          {/*<Description/>*/}
+          {/*<Showcase/>*/}
         </div>
       </div>
     );

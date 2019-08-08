@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'TICKTOK.IO', // Title for your website.
-  tagline: 'Clock As a Service',
+  tagline: 'Open Source Time Based Events Dispatching Software',
   url: 'https://ticktok-io.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,10 +38,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'overview', label: 'Docs'},
+    {doc: 'api/clocks', label: 'API'},
+    {
+      href: "https://github.com/ticktok-io/ticktok.io",
+      label: "GitHub"
+    }
   ],
 
   // If you have users set above, you add it here:
@@ -58,6 +60,17 @@ const siteConfig = {
     secondaryColor: '#2d5f67',
   },
 
+  fonts: {
+    myFont: [
+      "-apple-system",
+      "system-ui",
+      "sans"
+    ],
+    myOtherFont: [
+      "-apple-system",
+      "system-ui"
+    ]
+  },
   /* Custom fonts for website */
   /*
   fonts: {
@@ -73,7 +86,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Eli Segal`,
+  copyright: `Licensed under Apache-2.0`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
