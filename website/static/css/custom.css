@@ -1,7 +1,7 @@
 /* your custom css */
 
 Features {
-    background: #e5e5e5 ;
+    background: #e5e5e5;
 }
 
 .projectTitle {
@@ -16,6 +16,14 @@ Features {
     color: orange;
     font-style: italic;
     font-size: 95%;
+}
+
+.mainContainer {
+    padding-top: 20px;
+}
+
+.container.paddingTop {
+    padding-top: 60px;
 }
 
 
