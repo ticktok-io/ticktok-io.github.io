@@ -1,10 +1,6 @@
 {
   "docs": {
-    "Quick Start": ["overview", "server", "sdks"],
-    "SDK Clients": ["doc2"],
-    "API": ["doc3"]
-  },
-  "api": {
-    "Clocks": ["api/clocks"]
+    "Getting Started": ["overview", "server", "dashboard", "sdks", "scheduling", "sdk_guidelines"],
+    "API": ["api/auth", "api/clocks", "api/clock"]
   }
 }

@@ -12,6 +12,12 @@ Features {
     top: 20%
 }
 
+.warning {
+    color: orange;
+    font-style: italic;
+    font-size: 95%;
+}
+
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

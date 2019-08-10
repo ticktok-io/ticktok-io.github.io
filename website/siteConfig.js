@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'overview', label: 'Docs'},
-    {doc: 'api/clocks', label: 'API'},
+    {doc: 'api/auth', label: 'API'},
     {
       href: "https://github.com/ticktok-io/ticktok.io",
       label: "GitHub"
