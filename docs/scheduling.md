@@ -4,14 +4,15 @@ title: Scheduling
 sidebar_label: Scheduling
 ---
 
+## Examples
 To create a new schedule use one of the available SDKs
 
-#### Java
+### Java
 ```Java
 Ticktok ticktok = new Ticktok(options().domain("http://ticktok:9643").token("1234"));
 ticktok.schedule("user-mgmt:purge-users", "every.2.minutes", () -> foo());
 ```
-#### Javascript
+### Javascript
 ```javascript
 const ticktok = require('ticktok')
 
@@ -20,7 +21,7 @@ ticktok('https://ticktok:9643', 'token')
     purge() 
 })
 ```
-#### Clojure
+### Clojure
 ```clojure
 (require '[ticktok.core :as tk])
 

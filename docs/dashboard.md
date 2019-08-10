@@ -4,6 +4,7 @@ title: Dashboard
 sidebar_label: Dashboard
 ---
 
+## Overview 
 Although most of the scheduling operation of Ticktok.io is done programmatically. the dashboard provides a way to monitor and do essential action on clocks and ticks.
 
 ![screenshot](https://raw.githubusercontent.com/ticktok-io/brand/master/screenshots/screenshot_clocks_list_v2.png)
