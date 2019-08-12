@@ -11,7 +11,7 @@ Features {
 
 .projectTitle > small {
     font-family: sans-serif;
-    font-size: large;
+    font-weight: 300;
 }
 
 .headerTitleWithLogo {
