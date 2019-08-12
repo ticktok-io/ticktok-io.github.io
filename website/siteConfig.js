@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'TICKTOK.IO', // Title for your website.
+  title: 'ticktok.io', // Title for your website.
   tagline: 'Open Source Time Based Events Dispatching Software',
   url: 'https://ticktok.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -32,6 +32,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: 'ticktok-io.github.io',
   organizationName: 'ticktok-io',
+  cname: 'ticktok.io',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -56,8 +57,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#418994',
-    secondaryColor: '#2d5f67',
+    primaryColor: '#3c2e6d',
+    secondaryColor: '#302558',
   },
 
   fonts: {
@@ -122,6 +123,10 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/ticktok-io/ticktok.io',
+
+  stylesheets: [
+    "https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap"
+  ]
 };
 
 module.exports = siteConfig;

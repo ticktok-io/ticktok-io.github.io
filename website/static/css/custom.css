@@ -6,6 +6,16 @@ Features {
 
 .projectTitle {
     color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projectTitle > small {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.headerTitleWithLogo {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .gitter-chat-embed {
