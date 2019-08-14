@@ -79,7 +79,7 @@ class HomeSplash extends React.Component {
         {/*<Logo img_src={`${baseUrl}img/undraw_monitor.svg`}/>*/}
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig}/>
-          <StarMe repoUrl={siteConfig.repoUrl}/>
+          {/*<StarMe repoUrl={siteConfig.repoUrl}/>*/}
           <PromoSection>
             <Button href={docUrl('overview.html')}>Get Started</Button>
             {/*  <Button href={docUrl('doc1.html')}>Example Link</Button>*/}
