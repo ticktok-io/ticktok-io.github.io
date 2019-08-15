@@ -12,8 +12,13 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+
 .gitter-chat-embed {
     top: 20%
+}
+
+.gitter-open-chat-button {
+    background: #D9B310;
 }
 
 .warning {
