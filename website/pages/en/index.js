@@ -168,14 +168,16 @@ class Index extends React.Component {
           {
             content: 'Scheduling with Ticktok.io is done programmatically, using an SDK will hide any technology ' +
               'complexity. Our scheduling language is both easy to understand and powerful for any scheduling needs.',
-            image: `${baseUrl}img/clock-circular-outline.png`,
+            image: `${baseUrl}img/clock.svg`,
+            imageAlt: 'https://www.flaticon.com/authors/freepik',
             imageAlign: 'top',
             title: 'SCHEDULE',
           },
           {
             content: 'Monitoring is important and Ticktok.io doesn\'t fall short. Whether you want to monitor ticks accuracy, debug ' +
               'missing events or get alerts if something goes wrong. Ticktok.io will deliver.',
-            image: `${baseUrl}img/pie-chart.png`,
+            image: `${baseUrl}img/responsive.svg`,
+            imageAlt: 'https://www.flaticon.com/authors/freepik',
             imageAlign: 'top',
             title: 'MONITOR',
           },
@@ -183,7 +185,8 @@ class Index extends React.Component {
             content: 'Ticktok.io is built to scale from the get go, so even at a large scale it will provide a fast and accurate ' +
               'ticks. ' +
               'It\'s also self managed, so there\'s no need for extra maintenance overhead.',
-            image: `${baseUrl}img/settings-gears.png`,
+            image: `${baseUrl}img/settings.svg`,
+            imageAlt: 'https://www.flaticon.com/authors/roundicons',
             imageAlign: 'top',
             title: 'SCALE',
           },

@@ -12,7 +12,6 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-
 .gitter-chat-embed {
     top: 20%
 }
@@ -24,11 +23,16 @@
 }
 
 .mainContainer {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .container.paddingTop {
     padding-top: 60px;
+}
+
+
+.imageAlignTop .blockImage {
+    max-width: 50px;
 }
 
 

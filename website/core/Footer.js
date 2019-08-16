@@ -43,6 +43,9 @@ class Footer extends React.Component {
             <a href={this.docUrl('api/auth.html', this.props.language)}>
               API Reference
             </a>
+            <a href='https://github.com/ticktok-io/ticktok-examples' target="_blank">
+              SDK Examples
+            </a>
           </div>
           <div>
             <h5>Community</h5>
