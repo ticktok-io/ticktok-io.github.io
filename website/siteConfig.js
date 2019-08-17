@@ -98,7 +98,8 @@ const siteConfig = {
   scripts: [
     'https://buttons.github.io/buttons.js',
     '/js/gitter.js',
-    'https://sidecar.gitter.im/dist/sidecar.v1.js'
+    'https://sidecar.gitter.im/dist/sidecar.v1.js',
+    '/js/keywords.js'
   ],
 
   // On page navigation for the current documentation page.
