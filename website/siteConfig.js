@@ -126,7 +126,7 @@ const siteConfig = {
   repoUrl: 'https://github.com/ticktok-io/ticktok.io',
 
   stylesheets: [
-    "https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap"
+    "https://fonts.googleapis.com/css?family=Quicksand:300,400&display=block"
   ]
 };
 
