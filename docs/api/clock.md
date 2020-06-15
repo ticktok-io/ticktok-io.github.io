@@ -7,8 +7,8 @@ sidebar_label: /api/v1/clocks/{id}
 ## Invoke an action on clock
 ```PUT: http://ticktok.io.domain/api/v1/clocks/{clockId}/{action}```
 
-For each clock there might several available actions, these action will be return in the 'links' section. Currently available action are:
-* tick - Manually tick a specific clock
+For each clock there might be several actions available, these action will be returned in the 'links' section. Currently, the available actions are:
+* tick - Manually invocation of a specific clock
 * pause - Pause an active clock
 * resume - Resume paused clock
 
@@ -23,15 +23,15 @@ For each clock there might several available actions, these action will be retur
     "links": [
         {
             "rel": "self",
-            "href": "http://localhost:9643/api/v1/clocks/5ee4f980d8469e49e84928c1"
+            "href": "http://ticktok.io.host:9643/api/v1/clocks/5ee4f980d8469e49e84928c1"
         },
         {
             "rel": "resume",
-            "href": "http://localhost:9643/api/v1/clocks/5ee4f980d8469e49e84928c1/resume"
+            "href": "http://ticktok.io.host:9643/api/v1/clocks/5ee4f980d8469e49e84928c1/resume"
         },
         {
             "rel": "tick",
-            "href": "http://localhost:9643/api/v1/clocks/5ee4f980d8469e49e84928c1/tick"
+            "href": "http://ticktok.io.host:9643/api/v1/clocks/5ee4f980d8469e49e84928c1/tick"
         }
     ]
 }
@@ -40,26 +40,26 @@ For each clock there might several available actions, these action will be retur
 ## Retrieve a specific clock
 ```PUT: http://ticktok.io.domain/api/v1/clocks/{clockId}```
 
-Get a clock by its id
+Get a clock by clock id
 
 ```json
 {
-    "id": "5ee4f980d8469e49e84928c1",
-    "name": "events:scale-agents",
-    "schedule": "every.10.minutes",
+    "id": "5ee980d8449e84928c1",
+    "name": "retailer:poll-new-messages",
+    "schedule": "every.30.seconds",
     "status": "PAUSED",
     "links": [
         {
             "rel": "self",
-            "href": "http://localhost:9643/api/v1/clocks/5ee4f980d8469e49e84928c1"
+            "href": "http://ticktok.io.host:9643/api/v1/clocks/5ee980d8449e84928c1"
         },
         {
             "rel": "resume",
-            "href": "http://localhost:9643/api/v1/clocks/5ee4f980d8469e49e84928c1/resume"
+            "href": "http://ticktok.io.host:9643/api/v1/clocks/5ee980d8449e84928c1/resume"
         },
         {
             "rel": "tick",
-            "href": "http://localhost:9643/api/v1/clocks/5ee4f980d8469e49e84928c1/tick"
+            "href": "http://ticktok.io.host:9643/api/v1/clocks/5ee980d8449e84928c1/tick"
         }
     ]
 }
