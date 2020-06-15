@@ -4,6 +4,8 @@ title: Authentication
 sidebar_label: authentication
 ---
 
+## Access token 
+
 All calls should be authenticated with an access token.
 There are two ways to provide an access token:
 
