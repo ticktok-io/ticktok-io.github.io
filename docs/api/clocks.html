@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Clocks · ticktok.io</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="TBD"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Clocks · ticktok.io"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ticktok.io/"/><meta property="og:description" content="TBD"/><meta property="og:image" content="https://ticktok.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ticktok.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400&amp;display=block"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="/js/gitter.js"></script><script type="text/javascript" src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script><script type="text/javascript" src="/js/keywords.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="ticktok.io"/><h2 class="headerTitleWithLogo">ticktok.io</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/overview" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/api/auth" target="_self">API</a></li><li class=""><a href="https://github.com/ticktok-io/ticktok.io" target="_self">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>API</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/server">Server</a></li><li class="navListItem"><a class="navItem" href="/docs/dashboard">Dashboard</a></li><li class="navListItem"><a class="navItem" href="/docs/sdks">SDK Clients</a></li><li class="navListItem"><a class="navItem" href="/docs/scheduling">Scheduling</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk_guidelines">SDK Guidelines</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">API</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/api/auth">authentication</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/api/clocks">/api/v1/clocks</a></li><li class="navListItem"><a class="navItem" href="/docs/api/clock">/api/v1/clocks/{id}</a></li></ul></div></div></section></div><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>/api/v1/clocks · ticktok.io</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Create a new clock"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="/api/v1/clocks · ticktok.io"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ticktok.io/"/><meta property="og:description" content="## Create a new clock"/><meta property="og:image" content="https://ticktok.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ticktok.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400&amp;display=block"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="/js/gitter.js"></script><script type="text/javascript" src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script><script type="text/javascript" src="/js/keywords.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="ticktok.io"/><h2 class="headerTitleWithLogo">ticktok.io</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/overview" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/api/auth" target="_self">API</a></li><li class=""><a href="https://github.com/ticktok-io/ticktok.io" target="_self">GitHub</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>API</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/server">Server</a></li><li class="navListItem"><a class="navItem" href="/docs/dashboard">Dashboard</a></li><li class="navListItem"><a class="navItem" href="/docs/sdks">SDK Clients</a></li><li class="navListItem"><a class="navItem" href="/docs/scheduling">Scheduling</a></li><li class="navListItem"><a class="navItem" href="/docs/sdk_guidelines">SDK Guidelines</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">API</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/api/auth">authentication</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/api/clocks">/api/v1/clocks</a></li><li class="navListItem"><a class="navItem" href="/docs/api/clock">/api/v1/clocks/{id}</a></li></ul></div></div></section></div><script>
             var coll = document.getElementsByClassName('collapsible');
             var checkActiveCategory = true;
             for (var i = 0; i < coll.length; i++) {
@@ -54,5 +54,120 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Clocks</h1></header><article><div><span><p>TBD</p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/api/auth"><span class="arrow-prev">← </span><span>authentication</span></a><a class="docs-next button" href="/docs/api/clock"><span>/api/v1/clocks/{id}</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="ticktok.io" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/overview.html">Getting Started</a><a href="/docs/en/api/auth.html">API Reference</a><a href="https://github.com/ticktok-io/ticktok-examples" target="_blank">SDK Examples</a></div><div><h5>Community</h5><a href="https://gitter.im/ticktok-io/community">Project Chat</a><a href="https://twitter.com/ticktok_io" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="https://github.com/ticktok-io/ticktok.io">GitHub</a><a class="github-button" href="https://github.com/ticktok-io/ticktok.io" data-icon="octicon-star" data-count-href="ticktok-io/ticktok.io" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Licensed under Apache-2.0</section></footer></div></body></html>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">/api/v1/clocks</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="create-a-new-clock"></a><a href="#create-a-new-clock" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create a new clock</h2>
+<p><code>POST http://ticktok.io.host:9643/api/v1/clocks</code></p>
+<p>Register a client to a clock while either creating a new clock or joining an existing one. Only one client instance will receive a clock per name &amp; schedule.</p>
+<p><strong>Body:</strong></p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"Clock name"</span>,
+    <span class="hljs-attr">"schedule"</span>: <span class="hljs-string">"every.2.minutes"</span>
+}
+</code></pre>
+<p>The response will include current clock properties.</p>
+<p><strong>Example response (RabbitMQ):</strong></p>
+<pre><code class="hljs css language-json">{
+    <span class="hljs-attr">"id"</span>: <span class="hljs-string">"9e49e848f492"</span>,
+    <span class="hljs-attr">"name"</span>: <span class="hljs-string">"events:scale-agents"</span>,
+    <span class="hljs-attr">"schedule"</span>: <span class="hljs-string">"every.10.minutes"</span>,
+    <span class="hljs-attr">"status"</span>: <span class="hljs-string">"PENDING"</span>,
+    <span class="hljs-attr">"channel"</span>: {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"rabbit"</span>,
+        <span class="hljs-attr">"details"</span>: {
+            <span class="hljs-attr">"uri"</span>: <span class="hljs-string">"amqp://localhost"</span>,
+            <span class="hljs-attr">"queue"</span>: <span class="hljs-string">"ticktok-events:scale-agents;every.10.minutes"</span>
+        }
+    },
+    <span class="hljs-attr">"links"</span>: [
+        {
+            <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"self"</span>,
+            <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/9e49e848f492"</span>
+        },
+        {
+            <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"tick"</span>,
+            <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/9e49e848f492/tick"</span>
+        },
+        {
+            <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"pause"</span>,
+            <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/9e49e848f492/pause"</span>
+        }
+    ]
+}
+</code></pre>
+<p>The details of the channel that will allow the client to receive ticks for the specified schedule. The channel section will be different according to its type:</p>
+<ul>
+<li>rabbit:
+<ul>
+<li>uri - rabbit uri</li>
+<li>queue - queue name to receive ticks from</li>
+</ul></li>
+<li>http:
+<ul>
+<li>url - url to poll for ticks</li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="get-all-clocks"></a><a href="#get-all-clocks" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Get all clocks</h2>
+<p><code>GET: http://ticktok.io.host:9643/api/v1/clocks</code></p>
+<p>Retrieve all clocks. clocks with a pending status excluded by default.</p>
+<p><strong>Example response:</strong></p>
+<pre><code class="hljs css language-json">[
+    {
+        <span class="hljs-attr">"id"</span>: <span class="hljs-string">"9e49e848f492"</span>,
+        <span class="hljs-attr">"name"</span>: <span class="hljs-string">"events:scale-agents"</span>,
+        <span class="hljs-attr">"schedule"</span>: <span class="hljs-string">"every.10.minutes"</span>,
+        <span class="hljs-attr">"status"</span>: <span class="hljs-string">"ACTIVE"</span>,
+        <span class="hljs-attr">"links"</span>: [
+            {
+                <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"self"</span>,
+                <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/9e49e848f492"</span>
+            },
+            {
+                <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"tick"</span>,
+                <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/9e49e848f492/tick"</span>
+            },
+            {
+                <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"pause"</span>,
+                <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/9e49e848f492/pause"</span>
+            }
+        ]
+    },
+    {
+        <span class="hljs-attr">"id"</span>: <span class="hljs-string">"398778e7a98"</span>,
+        <span class="hljs-attr">"name"</span>: <span class="hljs-string">"marketing:weekly-email"</span>,
+        <span class="hljs-attr">"schedule"</span>: <span class="hljs-string">"every.7.days"</span>,
+        <span class="hljs-attr">"status"</span>: <span class="hljs-string">"PAUSED"</span>,
+        <span class="hljs-attr">"links"</span>: [
+            {
+                <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"self"</span>,
+                <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/398778e7a98"</span>
+            },
+            {
+                <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"tick"</span>,
+                <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/398778e7a98/tick"</span>
+            },
+            {
+                <span class="hljs-attr">"rel"</span>: <span class="hljs-string">"pause"</span>,
+                <span class="hljs-attr">"href"</span>: <span class="hljs-string">"http://ticktok.io.host:9643/api/v1/clocks/398778e7a98/pause"</span>
+            }
+        ]
+    }
+]
+</code></pre>
+<p>This call allow you to filter out clocks by specifying query params.</p>
+<table>
+<thead>
+<tr><th>Parameter</th><th>Description</th></tr>
+</thead>
+<tbody>
+<tr><td>name</td><td>Clock's name</td></tr>
+<tr><td>status</td><td>Possible values: PENDING/ACTIVE/PAUSED</td></tr>
+<tr><td>schedule</td><td>Clock schedule</td></tr>
+</tbody>
+</table>
+<p><strong>Search examples:</strong></p>
+<p>Find all active clocks</p>
+<pre><code class="hljs">GET <span class="hljs-symbol">http:</span>/<span class="hljs-regexp">/ticktok.io.host:9643/api</span><span class="hljs-regexp">/v1/clocks</span>?status=ACTIVE
+</code></pre>
+<p>Find all clocks schedule to anything other than every 10 seconds</p>
+<pre><code class="hljs">GET <span class="hljs-symbol">http:</span>/<span class="hljs-regexp">/ticktok.io.host:9643/api</span><span class="hljs-regexp">/v1/clocks</span>?schedule=!every.<span class="hljs-number">10</span>.seconds
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/api/auth"><span class="arrow-prev">← </span><span>authentication</span></a><a class="docs-next button" href="/docs/api/clock"><span>/api/v1/clocks/{id}</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#create-a-new-clock">Create a new clock</a></li><li><a href="#get-all-clocks">Get all clocks</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/favicon.ico" alt="ticktok.io" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/overview.html">Getting Started</a><a href="/docs/en/api/auth.html">API Reference</a><a href="https://github.com/ticktok-io/ticktok-examples" target="_blank">SDK Examples</a></div><div><h5>Community</h5><a href="https://gitter.im/ticktok-io/community">Project Chat</a><a href="https://twitter.com/ticktok_io" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="https://github.com/ticktok-io/ticktok.io">GitHub</a><a class="github-button" href="https://github.com/ticktok-io/ticktok.io" data-icon="octicon-star" data-count-href="ticktok-io/ticktok.io" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Licensed under Apache-2.0</section></footer></div></body></html>
